@@ -1,0 +1,83 @@
+body {
+    font-family: 'Verdana';
+    max-width: 600px;
+    padding: 0px 30px;
+  }
+  
+  /* сделает ширину таблицы равной ширине блока контейнера, в котором она находится */
+table {
+    width: 100%;
+ }
+ 
+  h1 {
+    margin-bottom: 0px;
+    color:rgb(23, 94, 104)
+  }
+  
+  p {
+    margin-top: 0px;
+  }
+  
+  fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  
+  legend {
+    padding: 0px 3px;
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+  
+  label {
+    width: 290px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+    color:rgb(23, 94, 104)
+  }
+  
+  em {
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(167, 101, 127);
+  }
+  
+  input:focus {
+    background: rgb(241, 204, 219);
+  }
+  
+  input, textarea {
+    width: 249px;
+    background-color: rgb(241, 204, 219);
+    border: rgb(23, 94, 104);
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  textarea {
+    height: 100px;
+    background-color: rgb(241, 204, 219);
+    border:rgb(23, 94, 104);
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  select {
+    width: 254px;
+    margin-top: 10px;
+    background-color: rgb(241, 204, 219);
+    border:rgb(23, 94, 104);
+  }
+  
+  input[type=checkbox] {
+    width: 10px;
+    margin-top: 10px;
+    background-color: rgb(241, 204, 219);
+    border:rgb(23, 94, 104);
+  }
+  
+  input[type=submit] {
+    width: 150px;
+    padding: 10px;
+}
